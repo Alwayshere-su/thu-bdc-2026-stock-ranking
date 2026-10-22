@@ -1,0 +1,25 @@
+# 数据与训练产物
+data/*.csv
+data/*.pkl
+model/
+output/
+results/*.csv
+results/*.pkl
+*.pth
+*.pkl
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
